@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Vaishali/My Documents/Capstone_medicare">
+        <classes>
+            <!--<class name="Signup.SignupTest">
+                <methods><include name="signupbuttontestcase"/>
+                    <include name="signupSuccessTestCase"/></methods>
+            </class>-->
+            <class name="Login.InvalidLogin">
+                <methods><include name="invalidLoginTestCase"/></methods>
+            </class>
+            <class name="Login.ValidLogin"><methods><include name="validLoginTestCase"/></methods>
+            </class>
+            <class name="AddToCart.AddToCartTest"><methods>
+                <include name="addToCartTestCase"/>
+                <include name="addToCartTestCase1"/>
+            </methods>
+
+            </class>
+            <class name="Checkout.CheckoutPageTest">
+                <methods><include name="checkoutTestCase"/>
+                <include name="checkoutTestCase1"/>
+                </methods>
+            </class>
+
+
+
+        </classes></test></suite>
